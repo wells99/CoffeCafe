@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #854d3d;
+    --color-secondary: #4a1e1b;
+    --color-brandDark:#270c03;
+    --font-cursive: "Pacifico", "cursive";
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Configurando o container no Tailwind CSS v4 */
+@utility container {
+  /* Para centralizar: */
+  margin-inline: auto; /* Equivalente a margin-left: auto; margin-right: auto; */
+
+  /* Para padding padrão: */
+  padding-inline: 1rem; /* Padding horizontal padrão de 1rem */
+
+  /* Para padding em breakpoints específicos, use media queries dentro da @utility */
+  @media (width >= theme(--breakpoint-sm)) {
+    padding-inline: 2rem; /* Padding horizontal de 2rem para o breakpoint 'sm' e acima */
+  }
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+     transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 40s linear infinite;
+}
