@@ -7,6 +7,7 @@ import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
 import AppStore from './components/AppStore/AppStore';
 import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Banner />
         <AppStore />
         <Testimonial />
+        <Footer />
 
       
       </div>
