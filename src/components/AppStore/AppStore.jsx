@@ -14,9 +14,11 @@ const AppStore = () => {
     return (
    <>
     <div style={backgroundStyle} className="py-14">
-        <div className="container">
-            <div className="space-y-6 max-w-xl mx-auto ">
-            <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
+        <div className="container" data-aos="fade-up">
+            <div className="space-y-6 max-w-xl px-auto ">
+            <div
+             
+             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 items-center gap-4">
                 <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold pl-3 ">Coffe Cafe is avaliable for Android and IOS</h1>
             </div>
 

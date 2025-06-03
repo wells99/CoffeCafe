@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="bg-gradient-to-r w-full from-secondary to-primary/90 text-white">
             <div className="container py-2">
                 <div className="flex justify-between items-center gap-4">
-                    <div>
+                    <div data-aos="fade-down" data-aos-once="true">
                         <a href="#" className="font-bold text-2xl sm:text-3xl 
                         flex justify-center items-center gap-2
                          tracking-wider !font-cursive">
@@ -34,7 +34,11 @@ const Navbar = () => {
                             Coffe Cafe</a>
                     </div>
 
-                    <div className="flex justify-between items-center gap-4">
+                    <div 
+                    data-aos="fade-down"
+                    data-aos-once="true"
+                    data-aos-delay="300"
+                    className="flex justify-between items-center gap-4">
                         <ul className="hidden sm:flex items-center gap-4">
                             {menus.map((data, index) => (
                                 <li key={index}>

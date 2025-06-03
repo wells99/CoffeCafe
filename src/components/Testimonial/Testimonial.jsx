@@ -69,12 +69,12 @@ const Testimonial = () => {
         <div className="py-14 mb-10">
             <div className="container">
 
-                <div className="text-center mb-10">
+                <div data-aos="fade-up" className="text-center mb-10">
                     <h1 className="text-4xl font-bold !font-cursive text-gray-800">
                         Testimonials
                     </h1>
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <Slider {...settings}>
                         {
                             testimonialData.map((data, indexd) => {
