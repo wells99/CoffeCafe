@@ -37,18 +37,18 @@ const Footer = () => {
                         <a href="#"
                         className="font-semibold tracking-widest text-2xl sm:text-3xl !font-cursive">
                             {" "}
-                            Coffe Cafe
+                            Orvalho Café
                         </a>
                         <p className="pt-4">
                             {" "}
-                            Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect Espresso Escape
+                            "O café é a única bebida que, de alguma forma, sempre consegue me manter acordado, mesmo quando eu não quero estar." - Franz Kafka
                         </p>
                         <a 
                         href="https://youtube.com/" 
                         target="_blank"
                         className="inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
                         >
-                            Visite nosso canal do Youtube
+                            Pedir agora
                         </a>
                     </div>
 
@@ -64,8 +64,9 @@ const Footer = () => {
                                     {footerLinks.map((data,index) => (
                                             <li key={index} className="space-y-3">
                                                 <a href={data.link} className="inline-block hover:scale-105 dration-200 hover:text-secondary ">
-                                                    {data.tittle}
+                                                    <p className="text-sm ">{data.tittle}</p>
                                                 </a>
+                                                
                                             </li>
                                     ))}
                                 </ul>
@@ -80,8 +81,8 @@ const Footer = () => {
                                 <ul>
                                     {footerLinks.map((data,index) => (
                                             <li key={index} className="space-y-3">
-                                                <a href={data.link} className="inline-block hover:scale-105 dration-200 hover:text-secondary">
-                                                    {data.tittle}
+                                                <a href={data.link} className="inline-block hover:scale-105 dration-200 hover:text-secondary ">
+                                                    <p className="text-sm ">{data.tittle}</p>
                                                 </a>
                                             </li>
                                     ))}
@@ -96,17 +97,17 @@ const Footer = () => {
                             <div className="text-xl  sm:text-left mb-3">
                                 <h1 className="font-semibold">Endereço</h1>
                                <div className="mb-3">
-                                <p >Fortaleza-CE</p>
-                                <p>(85) 91234.1234</p>
+                                <p className="text-sm hover:cursor-pointer hover:text-secondary">Fortaleza-CE</p>
+                                <p className="text-sm hover:cursor-pointer hover:text-secondary">(85) 91234.1234</p>
                                 <div className="space-x-3 mt-6">
                                     <a href="#">
-                                        <FaFacebook className="text-3xl inline-block hover:scale-105 duration-200" />
+                                        <FaFacebook className="text-3xl inline-block hover:scale-105 duration-200 hover:text-secondary" />
                                     </a>
                                     <a href="#">
-                                        <FaInstagram className="text-3xl inline-block hover:scale-105 duration-200" />
+                                        <FaInstagram className="text-3xl inline-block hover:scale-105 duration-200 hover:text-secondary" />
                                     </a>
                                     <a href="#">
-                                        <FaLinkedin className="text-3xl inline-block hover:scale-105 duration-200" />
+                                        <FaLinkedin className="text-3xl inline-block hover:scale-105 duration-200 hover:text-secondary" />
                                     </a>
                                 </div>
                                </div>

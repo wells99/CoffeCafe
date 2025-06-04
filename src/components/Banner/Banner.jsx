@@ -1,8 +1,11 @@
 import bgimage from "../../assets/coffee-texture.jpg";
 import bgimage2 from "../../assets/coffee2.png";
-import { GrSecure } from "react-icons/gr"
-import { IoFastFood } from "react-icons/io5"
-import { GiFoodTruck } from "react-icons/gi"
+import { MdWorkspacePremium } from "react-icons/md";
+import { BsFillCupHotFill } from "react-icons/bs";
+import { MdSevereCold } from "react-icons/md";
+
+
+
 
 const Banner = () => {
   const bgImagep = {
@@ -31,13 +34,10 @@ const Banner = () => {
           </div>
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold !font-cursive">
-              Premium Blend Coffee
+              Café Premium
             </h1>
             <p data-aos="fade-up" className="text-sm text-gray-500 tracking-wider leading-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In cumque,
-              esse molestiae eveniet suscipit atque cum delectus saepe iusto
-              expedita officia dolorum sunt modi harum! Consectetur nobis non
-              architecto debitis.
+             Selecionamos carinhosamente nossos grãos, trazendo uma sensação única: deslumbrante aos olhos, um sabor inebriante ao paladar e um aroma que te envolve,  preparando cada xicara com amor e carinho o seu café quentinho.
             </p>
             <div>
               <div className="grid grid-cols-2 gap-6">
@@ -45,16 +45,16 @@ const Banner = () => {
                   <div
                     data-aos="fade-up"
                     className="flex items-center gap-3">
-                    <GrSecure
-                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <MdWorkspacePremium
+                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100 " />
                     <span>Premium Coffe</span>
                   </div>
                   <div
                     data-aos="fade-up"
                     data-aos-delay="300"
                     className="flex items-center gap-3">
-                    <IoFastFood
-                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <BsFillCupHotFill
+                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-200 " />
                     <span>Hot Coffe</span>
                   </div>
                   <div
@@ -62,8 +62,8 @@ const Banner = () => {
                     data-aos-delay="500"
                     data-aos-offset="0"
                     className="flex items-center gap-3">
-                    <GrSecure
-                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <MdSevereCold
+                      className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-blue-100 " />
                     <span>Cold Coffe</span>
                   </div>
                 </div>
@@ -71,12 +71,10 @@ const Banner = () => {
                     data-aos="slide-left"
                  
                 className="border-l-4 border-primary/50 pl-6 space-y-3">
-                  <h1 className="text-2xl font-semibold !font-cursive">Tea Lover</h1>
+                  <h1 className="text-2xl font-semibold !font-cursive">Aos amantes de Chá</h1>
                   <p className="text-gray-500 text-sm">
                     {""}
-                    Much like writing code, brewing the perfect cup of tea
-                    requires patience, precision, and a dash
-                    of passion to create a conforting blend of flavors.
+                   Nossos chás são escolhidos para oferecer um momento de sabor e tranquilidade, seja um chá preto encorpado para despertar ou uma infusão suave para relaxar.
                   </p>
                 </div>
 

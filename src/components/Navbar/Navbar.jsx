@@ -5,17 +5,17 @@ const Navbar = () => {
     const menus = [
         {
             id: 1,
-            name: "Home",
+            name: "Inicio",
             link: "/#"
         },
         {
             id: 2,
-            name: "Services",
+            name: "Serviços",
             link: "/#services"
         },
         {
             id: 3,
-            name: "About",
+            name: "Sobre",
             link: "/#about"
         },
     ]
@@ -31,7 +31,7 @@ const Navbar = () => {
                                 src={Logo}
                                 alt="logo"
                                 className="w-14" />
-                            Coffe Cafe</a>
+                            Orvalho Café</a>
                     </div>
 
                     <div 
@@ -54,7 +54,7 @@ const Navbar = () => {
                         <button className="bg-primary/70 px-4 py-2 rounded-full 
                         hover:scale-105 duration-200 cursor-pointer 
                         flex items-center gap-3">
-                            Order
+                            Pedir
                             <FaCoffee  className="text-xl"/>
                         </button>
                     </div>
